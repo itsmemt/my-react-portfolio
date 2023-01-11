@@ -1,3 +1,12 @@
+#My React Portfolio
+
+Welcome to my personal portfolio repository on GitHub!
+
+This repository contains the source code and other relevant files for my personal portfolio website. The website serves as a showcase of my skills, experiences, and projects. You can find information about my background, education, and work experience, as well as examples of my portfolio projects.
+
+The website is built using modern web technologies such as HTML, CSS,JavaScript ReactJs.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
