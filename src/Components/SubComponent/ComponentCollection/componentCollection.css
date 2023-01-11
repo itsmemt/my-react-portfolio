@@ -1,0 +1,18 @@
+.sub-title{
+    margin: 20px;
+}
+.component-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #0E0D26;
+}
+.component-card div{
+    font-weight: 800;
+    font-size: 30px;
+}
