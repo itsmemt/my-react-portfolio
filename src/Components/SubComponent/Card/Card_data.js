@@ -57,7 +57,7 @@ let data=[
 },
 {
     img:"https://logodix.com/img/o.png",
-    name:"Unknown"
+    name:"Oracle"
 },
 {
     img:"https://logodix.com/img/p.png",

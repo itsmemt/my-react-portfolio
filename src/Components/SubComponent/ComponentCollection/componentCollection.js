@@ -5,19 +5,19 @@ export default function ComponentCollection() {
         return {
             fontWeight: isActive ? "bold" : "bold",
             color: isActive ? "slateblue" : "white",
-            textDecoration: isActive ? "underline" : "none",
+            // textDecoration: isActive ? "underline" : "none",
             // backgroundColor: isActive ? "none" : "slateblue",
         };
     };
     return (
         <div className="component-collection">
-            <h2 className="sub-title">Component Collections</h2>
+            <h2 className="sub-title">My Component Collection</h2>
             <div className="component-card">
                 <div>
-                    <NavLink style={navLinkStyles} to="carousel">Carousel</NavLink>
+                    <NavLink style={navLinkStyles} to="travelBlog">TravelBlog</NavLink>
                 </div>
                 <div>
-                    <NavLink style={navLinkStyles} to="travelBlog">TravelBlog</NavLink>
+                    <NavLink style={navLinkStyles} to="carousel">Carousel</NavLink>
                 </div>
                 <div>
                     <NavLink style={navLinkStyles} to="card">Card</NavLink>

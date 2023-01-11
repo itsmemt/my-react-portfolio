@@ -14,7 +14,7 @@ export default function TravelBlog() {
                         <img className="pic" src={item.img} alt="..." />
                     </div>
                     <div className="desc-container">
-                        <h4 className="country"><i class="fa-solid fa-location-dot"></i>{item.country}</h4>
+                        <h4 className="country"><i className="fa-solid fa-location-dot"></i>{item.country}</h4>
                         <h2 className="place">{item.place} </h2>
                         <p className="travel-date">{item.date} </p>
                         <p className="desc">{item.desc} </p>

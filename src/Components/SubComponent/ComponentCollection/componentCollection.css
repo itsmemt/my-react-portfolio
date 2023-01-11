@@ -1,5 +1,6 @@
-.sub-title{
-    margin: 20px;
+.component-collection{
+    padding: 50px 15px;
+    background-color:#1A1A1A ;
 }
 .component-card{
     width: 100%;
@@ -10,9 +11,19 @@
     font-weight: 800;
     font-size: 30px;
     padding: 20px;
-    background-color: #0E0D26;
 }
 .component-card div{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
     font-weight: 800;
     font-size: 30px;
+    background-color: #0E0D26;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+@media(width<=750px){
+   .component-card{
+    flex-direction: column;
+   }
 }
