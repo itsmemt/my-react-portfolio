@@ -16,7 +16,7 @@ export default function TravelBlog() {
                     <div className="desc-container">
                         <h4 className="country"><i class="fa-solid fa-location-dot"></i>{item.country}</h4>
                         <h2 className="place">{item.place} </h2>
-                        <p className="date">{item.date} </p>
+                        <p className="travel-date">{item.date} </p>
                         <p className="desc">{item.desc} </p>
                     </div>
                 </section>

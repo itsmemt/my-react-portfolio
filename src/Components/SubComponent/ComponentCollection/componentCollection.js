@@ -14,13 +14,16 @@ export default function ComponentCollection() {
             <h2 className="sub-title">Component Collections</h2>
             <div className="component-card">
                 <div>
-                    <NavLink style={navLinkStyles} to="Carousel">Carousel</NavLink>
+                    <NavLink style={navLinkStyles} to="carousel">Carousel</NavLink>
                 </div>
                 <div>
-                    <NavLink style={navLinkStyles} to="TravelBlog">TravelBlog</NavLink>
+                    <NavLink style={navLinkStyles} to="travelBlog">TravelBlog</NavLink>
                 </div>
                 <div>
-                    <NavLink style={navLinkStyles} to="Card">Card</NavLink>
+                    <NavLink style={navLinkStyles} to="card">Card</NavLink>
+                </div>
+                <div>
+                    <NavLink style={navLinkStyles} to="todos">Todos</NavLink>
                 </div>
             </div>
             <Outlet />

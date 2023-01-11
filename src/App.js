@@ -12,6 +12,8 @@ import Footer from "./Components/SubComponent/Footer/footer";
 import TravelBlog from './Components/SubComponent/Travel_Journel/travel';
 import Carousel from './Components/SubComponent/Carousel/carousel';
 import Card from './Components/SubComponent/Card/Card';
+import Todos from "./Components/SubComponent/Todos/todos"
+import InvalidUrl from './Components/SubComponent/InvalidUrl/InvalidUrl';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css"
 function App() {
@@ -22,9 +24,10 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} >
             <Route index element={<TravelBlog />} />
-            <Route path="Card" element={<Card />} />
-            <Route path="Carousel" element={<Carousel />} />
-            <Route path="TravelBlog" element={<TravelBlog />} />
+            <Route path="card" element={<Card />} />
+            <Route path="carousel" element={<Carousel />} />
+            <Route path="travelBlog" element={<TravelBlog />} />
+            <Route path="todos" element={<Todos />} />
           </Route>
           <Route exact path="/about" element={<About />}>
             <Route index element={<AboutEducation />} />
@@ -36,6 +39,7 @@ function App() {
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/certifications" element={<Certification />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route path="*" element={<InvalidUrl />} />
         </Routes>
         <Footer/>
       </Router>
