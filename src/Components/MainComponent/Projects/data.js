@@ -12,6 +12,12 @@ const data=[
         link:"https://my-personal-portfolio-webapp.netlify.app",
         icon:"fas fa-external-link-alt"
     },
+    {   img:"https://images.unsplash.com/photo-1556037757-40496ad2fbc4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    title:"Open Book Library",
+    desc:"The Open Book Library is a react app where users can search and explore a wide range of books on various subjects. With a simple and user-friendly interface, users can easily search for books by title or author, view the top 10 books on a particular subject, and even input their own desired subject to find related books.",
+    link:"https://openbooklibraryapp.netlify.app/",
+    icon:"fas fa-external-link-alt"
+    },
     {   img:"https://tse4.mm.bing.net/th?id=OIP.D6UUVIOCY9ynhMUsXMk77wHaEe&pid=Api&P=0",
         title:"Authentication App",
         desc:"It is Authentication app which uses local storage to store users data and authenticate using the very same data.",
